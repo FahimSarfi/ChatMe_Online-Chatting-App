@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "403769648763",
+    "project_id": "chatapp-fahimsarfi",
+    "storage_bucket": "chatapp-fahimsarfi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403769648763:android:e6d6f9351c53840a72e4de",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403769648763-k35gdvvfaftsv2gql6161v8m3f156v01.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatapp",
+            "certificate_hash": "1ffea881e0d6e48e3e89c80d9b897258b6009576"
+          }
+        },
+        {
+          "client_id": "403769648763-17f1ioba6nsmaluahtfl7ndd83rpkcvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQOvs8LO8h_xj5ASrhf_oBgIyL9oXKZjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403769648763-17f1ioba6nsmaluahtfl7ndd83rpkcvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403769648763:android:f7dbcdbfb720295872e4de",
+        "android_client_info": {
+          "package_name": "com.example.firebase_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403769648763-17f1ioba6nsmaluahtfl7ndd83rpkcvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQOvs8LO8h_xj5ASrhf_oBgIyL9oXKZjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403769648763-17f1ioba6nsmaluahtfl7ndd83rpkcvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
