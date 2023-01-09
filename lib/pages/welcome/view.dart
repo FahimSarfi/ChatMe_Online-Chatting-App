@@ -56,7 +56,9 @@ class WelcomePage extends GetView<WelcomeController> {
                           Positioned(
                               bottom: 100,
                               child: ElevatedButton(
-                                onPressed: () => null,
+                                onPressed: () {
+                                  controller.handlesSignIn();
+                                },
                                 style: ButtonStyle(
                                     backgroundColor:
                                         MaterialStateProperty.all(Colors.white),
@@ -83,18 +85,14 @@ class WelcomePage extends GetView<WelcomeController> {
                       reversed: false,
                       mainAxisAlignment: MainAxisAlignment.center,
                       decorator: DotsDecorator(
-                        size: const Size.square(9),
-                        activeSize: const Size(18.0, 9.0),
-                        activeShape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(5)
-                    )
-                  ),
-                )
-              )
-            ],
-          ),
-        )
-      ),
+                          size: const Size.square(9),
+                          activeSize: const Size(18.0, 9.0),
+                          activeShape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(5))),
+                    ))
+              ],
+            ),
+          )),
     );
   }
 }

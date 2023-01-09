@@ -1,9 +1,9 @@
-import 'package:firebase_chat/pages/welcome/controller.dart';
+import 'package:firebase_chat/pages/sign_in/controller.dart';
 import 'package:get/get.dart';
 
-class WelcomeBinding implements Bindings {
+class SignInBinding implements Bindings {
   @override
   void dependencies() {
-    Get.lazyPut<WelcomeController>(() => WelcomeController());
+    Get.lazyPut<SignInController>(() => SignInController());
   }
 }
